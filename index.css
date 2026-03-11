@@ -1,0 +1,69 @@
+/* Remove default browser spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Style the whole page */
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+}
+
+/* Navigation bar styling */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    background:#333;
+    color:white;
+}
+
+/* Remove bullet points */
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+/* Space between menu items */
+nav ul li{
+    margin-left:20px;
+}
+
+/* Navigation links */
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+/* Hero section */
+header{
+    text-align:center;
+    padding:60px;
+    background:#0077ff;
+    color:white;
+}
+
+/* Button styling */
+button{
+    padding:10px 20px;
+    border:none;
+    background:rgb(12, 193, 36);
+    color:white;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+/* Section styling */
+section{
+    padding:40px;
+}
+
+/* Project card */
+.project{
+    background:white;
+    padding:20px;
+    margin-top:10px;
+    border-radius:5px;
+}
